@@ -1,11 +1,10 @@
 # Dynamic Sudoku Solver
 
-This repository contains a dynamic Sudoku solver implemented in Python. The solver is designed to solve Sudoku puzzles of various sizes, including the classic 9x9 Sudoku grid as well as larger grids such as 16x16 or even 25x25.
+I have developed a web-based tool that visually demonstrates the backtracking algorithm for solving Sudoku puzzles. This tool allows users to witness the algorithm in action, providing real-time execution and a clear understanding of how backtracking works. By using this tool, users can enhance their problem-solving skills and gain insights into the Sudoku-solving process.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Usage](#usage)
 - [Demo](#demo)
 - [Contributing](#contributing)
 - [License](#license)
@@ -14,17 +13,16 @@ This repository contains a dynamic Sudoku solver implemented in Python. The solv
 Sudoku is a popular logic-based puzzle game that involves filling a grid with numbers. The objective is to fill each row, column, and subgrid with numbers from 1 to N (where N is the size of the grid) without repeating any numbers. This repository provides a flexible and efficient solver that can handle Sudoku puzzles of different sizes.
 
 ## Features
-- Supports Sudoku grids of various sizes (e.g., 4x4, 9x9, 16x16, 25x25).
+- Supports Sudoku grids of various sizes (e.g., 4x4, 9x9).
 - Uses a backtracking algorithm to efficiently find solutions.
 - Provides a command-line interface for solving Sudoku puzzles.
 - Allows users to input their own Sudoku puzzles for solving.
 - Displays the solved Sudoku grid and solution steps.
 
-## Website
+## Live Demo
 
-Visit the website **[here](https://himanshuch1708.github.io/Dynamic-Sudoku-Solver/main/)** to explore the Dynamic Sudoku Solver online.
+**https://himanshuch1708.github.io/Dynamic-Sudoku-Solver/main/**
 
-## Demo
 ![Demo GIF](https://github.com/Himanshuch1708/Dynamic-Sudoku-Solver/blob/main/demo.gif)
 
 A demo GIF is available [here](https://github.com/Himanshuch1708/Dynamic-Sudoku-Solver/blob/main/demo.gif). Click the link to see the dynamic Sudoku solver in action.
