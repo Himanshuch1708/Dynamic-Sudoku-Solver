@@ -1,0 +1,30 @@
+{
+  "name": "Dynamic-Solver-Visualizer",
+  "version": "1.0.0",
+  "description": "A web-based tool that visually demonstrates the backtracking algorithm for solving Sudoku puzzles. I developed it to provide a clear understanding of backtracking. This application allows users to witness the algorithm's execution in real-time, unlocking the secrets of backtracking and enhancing their grasp of this problem-solving technique!",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "some-test-command",
+    "start": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshuch1708/Dynamic-Sudoku-Solver.git"
+  },
+  "keywords": [],
+  "author": "Himanshu Chaudhary",
+  "homepage": "https://github.com/Himanshuch1708/Dynamic-Sudoku-Solver.git#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "gh-pages": "^3.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1"
+  }
+}
