@@ -1,0 +1,95 @@
+/* Import custom font */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* Set height for HTML element */
+html {
+    height: 100%;
+}
+
+/* Set font family, background color, and grid layout for body */
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #eef0f2;
+    margin: 0;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+        "sudoku" 
+        "gap" 
+        "footer";
+    grid-template-rows: min-content 1fr min-content;
+}
+
+/* Define styles for the container */
+.container {
+    grid-area: sudoku;
+    display: grid;
+    margin-top: 1rem;
+    grid-template-areas:
+        "title"
+        "board"
+        "slider"
+        "buttons"
+        "status";
+}
+
+/* Define styles for the title row */
+.title-row {
+    grid-area: title;
+    justify-self: center;
+}
+
+/* Define styles for the board row */
+.board-row {
+    grid-area: board;
+    justify-self: center;
+    margin-top: 1em;
+}
+
+/* Define styles for the slider row */
+.slider-row {
+    grid-area: slider;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+/* Define styles for the buttons row */
+.buttons-row {
+    grid-area: buttons;
+    justify-self: center;
+    margin-top: 1em;
+}
+
+/* Define styles for the status row */
+.status-row {
+    grid-area: status;
+    justify-self: center;
+}
+
+/* Define styles for the footer */
+footer {
+    grid-area: footer;
+    width: 100%;
+    background-color: #196cca;
+    color: #eef0f2;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Define styles for the footer info */
+.footer-info {
+    margin: 0;
+}
+
+/* Define styles for the footer links */
+.footer-info a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Define styles for the footer link hover effect */
+.footer-info a:hover {
+    text-decoration: underline;
+}
